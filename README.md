@@ -1,4 +1,4 @@
-# Gestionnaire de Tâches
+# Gestionnaire de Tâches Backend
 
 ## Description du projet
 
@@ -17,8 +17,9 @@ L’application permet de manipuler les tâches avec un CRUD complet et une inte
 
 ### Backend 
 1. Cloner le dépôt le backend dans votre dossier local: `git clone https://github.com/dabofonsa/gestion-taches-back.git`
-2. Installer les dépendances avec `npm install`  
-3. Configurer la base de données MySQL dans le fichier `.env` (nom_SGBD, utilisateur, mot de passe, hôte, port, nom de la base)
+2. Se déplacer dans le dossier gestion-taches-front: `cd gestion-taches-back`
+3. Installer les dépendances avec `npm install`  
+4. Configurer la base de données MySQL dans le fichier `.env` (nom_SGBD, utilisateur, mot de passe, hôte, port, nom de la base)
     - Exemple: `DATABASE_URL="mysql://fonsa:123456TestBD@localhost:3306/testdeveloppement"`
 5. Lancer MySQL localement 
 6. Exécuter la migration Prisma avec la commande :  `npm prisma migrate dev --name init`
